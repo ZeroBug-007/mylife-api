@@ -1,5 +1,3 @@
-项目根目录下，创建一个名为 Dockerfile 的文件，内容如下：
-
 # 使用官方 maven/Java 8 镜像作为构建环境
 # https://hub.docker.com/_/maven
 FROM maven:3.6-jdk-11 as builder
