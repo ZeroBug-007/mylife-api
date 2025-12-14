@@ -27,6 +27,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      # === 新增这个调试步骤 ===
+      - name: Debug - List files (调试-列出文件)
+        run: ls -R
+      # =======================
+
       - name: Run fetch script (运行抓取脚本)
         env:
           # 这里引用我们在 GitHub 仓库设置里填的秘密地址
