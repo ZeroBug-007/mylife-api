@@ -1,5 +1,12 @@
 [
   {
+    "id": "https://twitter.com/0xLifeIsSea/status/2000051399955300772",
+    "link": "https://x.com/0xLifeIsSea/status/2000051399955300772",
+    "date": "2025-12-14 03:53:07",
+    "content": "下午再给我的网站加一套普罗米修斯的监控告警",
+    "images": []
+  },
+  {
     "id": "https://twitter.com/0xLifeIsSea/status/1999880971022455211",
     "link": "https://x.com/0xLifeIsSea/status/1999880971022455211",
     "date": "2025-12-13 16:35:54",
@@ -46,13 +53,6 @@
     "link": "https://x.com/0xLifeIsSea/status/1999784349659697462",
     "date": "2025-12-13 10:11:57",
     "content": "骚话这块还是得单独做个标签下。。权限隔离，只有自己能看。。",
-    "images": []
-  },
-  {
-    "id": "https://twitter.com/0xLifeIsSea/status/1999782363094827395",
-    "link": "https://x.com/0xLifeIsSea/status/1999782363094827395",
-    "date": "2025-12-13 10:04:04",
-    "content": "域名解析一系列都ok了，可以正常域名访问了，我现在想把推特之前写的骚话一起同步到我现在的网站上",
     "images": []
   },
   {
@@ -123,20 +123,6 @@
     "link": "https://x.com/0xLifeIsSea/status/1999319967087624316",
     "date": "2025-12-12 03:26:40",
     "content": "本来想从头到尾写一个博客。。但太麻烦了，还是拿别人的二次开发一下吧。。争取今天部署完 基于springboot+vue",
-    "images": []
-  },
-  {
-    "id": "https://twitter.com/0xLifeIsSea/status/1999090850559881670",
-    "link": "https://x.com/0xLifeIsSea/status/1999090850559881670",
-    "date": "2025-12-11 12:16:14",
-    "content": "继续干",
-    "images": []
-  },
-  {
-    "id": "https://twitter.com/0xLifeIsSea/status/1998961180464082973",
-    "link": "https://x.com/0xLifeIsSea/status/1998961180464082973",
-    "date": "2025-12-11 03:40:58",
-    "content": "ondo 最近风风火火，为撒它的代币没人提过一嘴。。。",
     "images": []
   }
 ]
