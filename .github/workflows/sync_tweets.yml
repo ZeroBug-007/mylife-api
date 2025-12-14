@@ -1,0 +1,42 @@
+name: Sync Tweets
+
+on:
+  schedule:
+    # 这里的语法叫 Cron。 '0 0 * * *' 代表每天 UTC 时间 0点（北京时间早8点）运行一次
+    # 如果想每 6 小时一次，改成 '0 */6 * * *'
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 这个意思是允许你手动点按钮触发（方便调试）
+
+permissions:
+  contents: write # 必须给写权限，不然机器人没法提交代码
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code (拉取代码)
+        uses: actions/checkout@v3
+
+      - name: Set up Python (准备 Python 环境)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies (安装依赖)
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run fetch script (运行抓取脚本)
+        env:
+          # 这里引用我们在 GitHub 仓库设置里填的秘密地址
+          RSS_URL: ${{ secrets.RSS_URL }}
+        run: python scripts/fetch_tweets.py
+
+      - name: Commit and Push if changed (如果有变化就提交)
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          # 只有当 tweets.json 真的变了，才会提交，否则不操作
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto sync tweets" && git push)
