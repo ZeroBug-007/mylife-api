@@ -1,5 +1,19 @@
 [
   {
+    "id": "https://twitter.com/0xLifeIsSea/status/2000865949780693009",
+    "link": "https://x.com/0xLifeIsSea/status/2000865949780693009",
+    "date": "2025-12-16 09:49:51",
+    "content": "像 zeabur 也是全栈的 ，基本都是容器化部署 个人免费的机子好像是500M 内存，已经够跑小型应用了，虽然像java这种带着虚拟机的比较吃内容，但其他的都绰绰有余了。。",
+    "images": []
+  },
+  {
+    "id": "https://twitter.com/0xLifeIsSea/status/2000865222765240578",
+    "link": "https://x.com/0xLifeIsSea/status/2000865222765240578",
+    "date": "2025-12-16 09:46:58",
+    "content": "我发现自己确实是low了，像你网站需要免费部署 你就很多选择，一键式部署，如果想要自动化部署，自己写脚本，github上还有actions 功能 而且也是免费的，一push代码马上就上线，哎没有agent，像我这种懒人确实撒野干不了又累。。",
+    "images": []
+  },
+  {
     "id": "https://twitter.com/0xLifeIsSea/status/2000792773155545525",
     "link": "https://x.com/0xLifeIsSea/status/2000792773155545525",
     "date": "2025-12-16 04:59:04",
@@ -109,20 +123,6 @@
     "link": "https://x.com/0xLifeIsSea/status/2000390066921939340",
     "date": "2025-12-15 02:18:52",
     "content": "ARMS+消息队列 告警通知",
-    "images": []
-  },
-  {
-    "id": "https://twitter.com/0xLifeIsSea/status/2000239660891836698",
-    "link": "https://x.com/0xLifeIsSea/status/2000239660891836698",
-    "date": "2025-12-14 16:21:12",
-    "content": "帘外雨潺潺，春意阑珊。罗衾不耐五更寒。梦里不知身是客，一晌贪欢。\n独自莫凭栏，无限江山。别时容易见时难。流水落花春去也，天上人间。",
-    "images": []
-  },
-  {
-    "id": "https://twitter.com/0xLifeIsSea/status/2000236848938205393",
-    "link": "https://x.com/0xLifeIsSea/status/2000236848938205393",
-    "date": "2025-12-14 16:10:02",
-    "content": "不小心睡着了 太阴公了 明儿早点起呗",
     "images": []
   }
 ]
